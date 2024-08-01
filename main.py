@@ -31,7 +31,7 @@ yaml_filename = 'my-config.yaml'
 full_path = Path(yaml_filename).resolve()
 
 # Load a model
-model = YOLO('yolov8n.pt') # load a pretrained model (recommended for training)
+model = YOLO('yolov8m.pt') # load a pretrained model
 
-results = model.train(data= str(full_path), epochs=30, patience=5, batch=16, imgsz=640)  # train the model
+results = model.train(data= str(full_path), epochs=50, batch=16, imgsz=640)  # train the model
 # metrics = model.val()  # evaluate model performance on the validation set
