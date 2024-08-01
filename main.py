@@ -24,7 +24,7 @@ yaml_filename = 'my-config.yaml'
 # train: datasets/train/images  # 1: all paths are relative to project's working directory
 # val: datasets/valid/images    # 2: a 'datasets' subfolder must be created inside working directory
 # nc: 1                         # 3: both train and val must be located inside 'datasets' subfolder
-# names: ['bees']
+# names: ['bee']
 
 
 # Full path of yaml file
